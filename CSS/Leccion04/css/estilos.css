@@ -1,0 +1,40 @@
+*{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    color: coral;
+}
+.caja{
+    padding: 10px;
+    color: white;
+    width: 125px;
+    height: 100px;
+    text-align: center;
+    margin: 5px auto;
+    float: left;
+}
+.rojo{
+    background-color: crimson;
+}
+.rosa{
+    background-color: deeppink;
+}
+.rgb{
+    background-color: rgb(76, 190, 228);
+}
+.rgba{
+    background-color: rgba(76, 190, 228, .5);
+}
+.hexadecimal{
+    background-color: #73d84c;
+}
+.hexa_transparencia{
+    background-color: #74d84c86;
+}
+.hsl{
+    background-color: hsl(273, 66%, 53%);
+}
+.hsla{
+    background-color: hsla(273, 66%, 53%, .5);
+}

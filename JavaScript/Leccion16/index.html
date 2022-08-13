@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+<body>
+    <h1 id="titulo">Manejo DOM con JavaScript</h1>
+    <br/>
+    <!-- Simplificación: agregamos formulario que contenga los input-->
+    <form id="forma">
+        Nombre: <input type="text" id="nombre"/>
+        <br/><br/>
+        Apellido: <input type="text" id="apellido"/>
+    </form>
+    <script>
+        // Asignamos la recuperación del formulario a una variable const (porque ya no vamos a cambiar la referencia):
+        const forma = document.getElementById('forma');
+
+        // Asignamos el mismo estilo a todos los elementos input del formulario
+        forma.addEventListener('focus', (evento)=>{
+            evento.target.style.background = 'pink'
+        }, true); //Con true indicamos que el estilo que aplicamos al formulario se aplique también a sus elementos internos
+        forma.addEventListener('blur', (evento)=>{
+            evento.target.style.background = 'white'
+        }, true);
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly|Sofia|Roboto&effect=neon&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Sofia&display=swap');*/
+
+h1{
+    color: rgb(160, 235, 235);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(178, 233, 255);
+    font-family: 'Sofia', cursive;
+}
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+.caja.serif{
+    background-color: rgb(255, 188, 157);
+}
+.fuente_roboto{
+    /*
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 20px;
+    */
+
+    /* font:  font-style font-variant font-weight *font-size/line height *font-family; */
+    font: italic  small-caps   bolder   20px  Roboto, sans-serif;
+}
+.fuente_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+.caja.sans-serif{
+    background-color: rgb(250, 200, 107);
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 3vh; /* view width (viewport) */
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-variant: small-caps;
+}
+.caja.monospace{
+    background-color: rgb(144, 212, 144);
+}
+.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.caja.cursive{
+    background-color: rgb(219, 179, 223);
+}
+.fuente_lucida{
+    font-family: 'Lucida Handwriting', cursive;
+}

@@ -1,0 +1,37 @@
+const autos = ['BMW', 'Mercedes Benz', 'Volvo'];
+console.log(autos);
+
+//Acceder a elementos individuales
+console.log(autos[0]);
+console.log(autos[2]);
+console.log(autos[1]);
+
+
+//Recorrer o acceder todos los elementos de una sola vez
+for (let i = 0; i < autos.length; i++){
+    console.log(autos[i]);
+}
+
+//Modificar elemento
+autos [1] = 'MercedesBenz';
+console.log(autos[1]);
+
+//Agregar elemento
+//Método push
+autos.push('Audi');
+console.log(autos);
+
+//Largo del arreglo
+console.log(autos.length);
+autos [autos.length] = 'Cadillac'; 
+console.log(autos);
+
+autos [6] = 'Porsche';
+console.log(autos);
+
+//Type of
+console.log(typeof autos);
+//Preguntamos si es un array
+console.log( Array.isArray(autos) );
+//Preguntamos si es un array
+console.log(autos instanceof Array);

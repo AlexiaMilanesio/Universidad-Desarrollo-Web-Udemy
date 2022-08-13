@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color:hotpink;
+}
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+.icono_violeta{
+    color:rgb(100, 26, 153);
+    font-size: 2.5em;
+    vertical-align: bottom;
+}
+.icono_verde{
+    color:rgb(59, 139, 39);
+    font-size: 2.5em;
+    vertical-align: bottom;
+}

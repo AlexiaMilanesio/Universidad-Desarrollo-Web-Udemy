@@ -1,0 +1,24 @@
+let persona1 = {
+    nombre: 'Juan',
+    apellido: 'Pérez',
+    nombreCompleto: function (titulo, tel){
+        return titulo + ': ' + this.nombre + ' ' + this.apellido + ', ' + tel;
+    }
+}
+
+let persona2 = {
+    nombre: 'Carlos',
+    apellido: 'Lara'
+}
+
+console.log(persona1.nombreCompleto('Lic.', '3348919127')); 
+//Uso de apply
+let arreglo = ['Ing', '3348912163'];
+console.log(persona1.nombreCompleto.apply(persona2, arreglo));
+
+
+
+
+
+
+

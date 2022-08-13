@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+div.contenedor{
+    display: flex;
+/*Primer paso para que se ordenen los párrafos de manera horizontal.*/
+    background-color: #560bad;
+    /* flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap; 
+/*Simplificamos flex-direction y flex-wrap con la propiedad flex-flow*/
+    justify-content: center;
+    height: 300px;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+div.contenedor > p{ 
+/*Editamos estilo de todos los párrafos hijo del div contenedor*/
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}
